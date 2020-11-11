@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+}
+
+head {
+    padding: 0;
+}
+
+header {
+    background-image: url("https://e7.pngegg.com/pngimages/758/386/png-clipart-simple-white-honeycomb-pattern-background-white-polygon.png");
+    background-size: cover;
+}
+
+header h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+    margin-right: 0;
+}
+
+hr {
+    border: 5px solid #808000;
+}
+
+main {
+    text-align: center;
+}
+
+main h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+main h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+}
+
+main a {
+    text-decoration: underline;
+    color: #000;
+}
+
+p {
+    text-align: center;
+    margin: 0 auto;
+    width: 65%;
+}
+
+.group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#linkedin {
+    border-radius: 50%;
+    padding: 40px;
+}
+
+#github {
+    border-radius: 50%;
+    padding: 40px;
+}
+
+#cutaneous {
+    border-radius: 50%;
+    padding: 40px;
+}
+
+div .form {
+    display: block;
+    text-align: center;
+}
+
+form label {
+    font-family: arial;
+    display: block;
+    font-size: 18px;
+    margin: 10px 0 5px 0; 
+    color: #000;
+    font-family: arial;
+    text-align: center;
+  }
+
+  form {
+      padding: 5px;
+      text-align: center;
+      background-color: lightgray;
+  }
+
+  form input[type=text]#number {
+    width: 85px;
+  }
+
+  .projects {
+      display: flex;
+  }
+
+  footer h2 {
+      color: #808000;
+      text-align: center;
+      margin-bottom: 0;
+      font-family: 'Roboto Condensed', sans-serif;
+  }
+
+@media all and (min-width: 600px) {
+    header {
+        padding: 10px;  
+      }
+    
+      header h1 {
+        margin: 14px 0;
+        padding-top: 0;
+      }
+    
+      header nav {
+        margin-top: 8px;
+      }
+     
+      header nav ul li a:hover {
+        color: #bdbdbd;
+      }
+    }
